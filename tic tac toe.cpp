@@ -33,7 +33,7 @@ bool checkDraw(char board[3][3]) {
 }
 
 int main() {
-    char board[3][3] = { {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} }; // Initialize empty board
+    char board[3][3] = { {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} }; 
     int row, col;
     char currentPlayer = 'X'; 
 
@@ -78,4 +78,5 @@ int main() {
     }
 
     return 0;
+
 }  
